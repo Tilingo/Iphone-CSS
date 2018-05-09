@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.screen{
+    width: 375px;
+    height: 667px;
+    background-image: url('homescreen.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid black;
+}
+
+.frame{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: 5px solid grey;
+    width: 425px;
+    height: 870px;
+    border-radius: 50px;
+}
+
+.button{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 4px solid;
+    background-color: aliceblue;
+}
+
+.light-sensor{
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: black;
+    margin-top: 15px;
+}
+
+.camera{
+    width: 19px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    left: 130px;
+    top: 40px;
+}
+.auricular{
+    width: 70px;
+    border-radius: 20px;
+    height: 5px;
+    background-color: black;
+    margin: 0 0 20px 0;
+}
+
+.mute{
+    height: 40px;
+    width: 2px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: -8px;
+    top: 85px;
+}
+
+.volUp{
+    height: 80px;
+    width: 3px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: -9px;
+    top: 160px;
+}
+
+.volDown{
+    height: 80px;
+    width: 3px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: -9px;
+    top: 260px;
+}
+
+.lock{
+    height: 70px;
+    width: 3.1px;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: -9px;
+    top: 160px;
+}
